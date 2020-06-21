@@ -26,7 +26,7 @@ New-AzSqlServerFirewallRule -FirewallRuleName "home" `
 							-ResourceGroupName packtade
 							
 # Remove Synapse SQL Pool
-Remove-AzSqlServer -ServerName azadesqlserver -ResourceGroupName packtade		
+# Remove-AzSqlServer -ServerName azadesqlserver -ResourceGroupName packtade		
 
 
 

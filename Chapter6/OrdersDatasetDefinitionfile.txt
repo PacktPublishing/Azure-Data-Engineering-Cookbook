@@ -1,0 +1,22 @@
+{
+    "name": "orders",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "DataLakeStoreLinkedService",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "folderPath": "orders",
+                "fileSystem": "ecommerce"
+            },
+            "columnDelimiter": ",",
+            "escapeChar": "\\",
+            "quoteChar": "\""
+        },
+        "schema": []
+    }
+}

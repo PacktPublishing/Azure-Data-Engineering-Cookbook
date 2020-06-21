@@ -1,0 +1,11 @@
+{
+    "name": "DataLakeStoreLinkedService",
+    "properties": {
+        "annotations": [],
+        "type": "AzureBlobFS",
+        "typeProperties": {
+            "url": "https://packtdatalakestore.dfs.core.windows.net",
+			"AccountKey":"EvG77HNayTToXPkxPMPAr7iYVjS8wnGvdzbeUbiwKA90apg2+3BFxh3sIIj3tw+O2vUG+AwQRfVPCFvAFliDqQ=="
+        }
+    }
+}

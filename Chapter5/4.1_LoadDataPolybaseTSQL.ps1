@@ -4,7 +4,7 @@
 $resourcegroupname = "packtade"
 $storageaccountname = "azadedls"
 $servername = "azadesqlserver"
-$directory  = " C:\ADECookbook\Chapter5\Data\"
+$directory  = "C:\ADE\azure-data-engineering-cookbook\Chapter5\Data"
 
 
 #Create a new Azure Data Lake Storage account
