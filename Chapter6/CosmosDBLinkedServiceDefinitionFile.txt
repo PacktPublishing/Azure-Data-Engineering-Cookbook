@@ -5,7 +5,7 @@
         "annotations": [],
         "type": "CosmosDb",
         "typeProperties": {
-            "connectionString": "AccountEndpoint=https://packtcosmosdb.documents.azure.com:443/;Database=orders;AccountKey=wQJTCv6KMcY99kf0vhSknPftUMQmjWOwbkUrDd1riMbEkAyJQRcRDhmOBzd6s8vqrERpZdyiqEpYIfmwkJ23og==;"
+            "connectionString": "AccountEndpoint=https://packtcosmosdb.documents.azure.com:443/;Database=orders;AccountKey=<account key>"
             
         }
     }
