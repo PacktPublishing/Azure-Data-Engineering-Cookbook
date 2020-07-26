@@ -5,7 +5,7 @@
         "annotations": [],
         "type": "AzureBlobStorage",
         "typeProperties": {
-            "connectionString": "DefaultEndpointsProtocol=https;AccountName=packtstorage;EndpointSuffix=core.windows.net;AccountKey=tszRHVs+noulqYqO+qnq942LiQHgU2NFvb2okZ8If37U5qRwgSyfclkIelay+fjiSFjXyr+L56kelniesbOxyQ==",
+            "connectionString": "DefaultEndpointsProtocol=https;AccountName=packtstorage;EndpointSuffix=core.windows.net;AccountKey=<account key>",
             
         }
     }
