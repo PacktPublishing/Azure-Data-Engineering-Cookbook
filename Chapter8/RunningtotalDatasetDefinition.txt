@@ -1,0 +1,48 @@
+{
+    "name": "RunningTotalTable",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "AzureSqlDatabaseLinkedService",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "AzureSqlTable",
+        "schema": [
+            {
+                "name": "CustomerName",
+                "type": "varchar"
+            },
+            {
+                "name": "Country",
+                "type": "varchar"
+            },
+            {
+                "name": "quantity",
+                "type": "int",
+                "precision": 10
+            },
+            {
+                "name": "unitprice",
+                "type": "decimal",
+                "precision": 10,
+                "scale": 2
+            },
+            {
+                "name": "Amount",
+                "type": "decimal",
+                "precision": 10,
+                "scale": 2
+            },
+            {
+                "name": "runningtotal",
+                "type": "decimal",
+                "precision": 10,
+                "scale": 2
+            }
+        ],
+        "typeProperties": {
+            "schema": "dbo",
+            "table": "RunningTotal"
+        }
+    }
+}
