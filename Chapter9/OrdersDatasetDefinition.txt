@@ -1,0 +1,22 @@
+{
+    "name": "orders",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "PacktStorageLinkedService",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobStorageLocation",
+                "folderPath": "datain",
+                "container": "orders"
+            },
+            "columnDelimiter": "|",
+            "escapeChar": "\\",
+            "quoteChar": "\""
+        },
+        "schema": []
+    }
+}
