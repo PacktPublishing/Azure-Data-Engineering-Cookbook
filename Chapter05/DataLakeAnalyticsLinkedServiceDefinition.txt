@@ -1,0 +1,20 @@
+{
+    "name": "DataLakeAnalyticsLinkedService",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureDataLakeAnalytics",
+        "typeProperties": {
+            "accountName": "packtdatalakeanalytics",
+            "servicePrincipalId": "<servicePrincipalId>",
+			"servicePrincipalKey": {
+                "value": "Awesome@1234",
+                "type": "SecureString"
+            },
+            "tenant": "<tenantid>",
+            "subscriptionId": "<subscriptionId>",
+            "resourceGroupName": "packtade"
+            
+        }
+    }
+}

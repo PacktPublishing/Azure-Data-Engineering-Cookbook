@@ -1,0 +1,27 @@
+{
+    "name": "ordersfile",
+    "properties": {
+        "linkedServiceName": {
+            "referenceName": "DataLakeStoreLinkedService",
+            "type": "LinkedServiceReference"
+        },
+        "annotations": [],
+        "type": "DelimitedText",
+        "typeProperties": {
+            "location": {
+                "type": "AzureBlobFSLocation",
+                "fileName": "orders1.txt",
+                "folderPath": "orders",
+                "fileSystem": "ecommerce"
+            },
+            "columnDelimiter": "|",
+            "escapeChar": "\\",
+            "quoteChar": "\""
+        },
+        "schema": [
+            {
+                "type": "String"
+            }
+        ]
+    }
+}
