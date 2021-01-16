@@ -1,11 +1,10 @@
 # Provision an Azure SQL Database
-
 param(
-$resourcegroup  = "packtade",
-$servername = "azadesqlserver",
-$databasename = "azadesqldb",
-$password = 'Sql@Server@1234',
-$location="central us"
+[string]$resourcegroup="packtade",
+[string]$servername="azadesqlserver",
+[string]$databasename="azadesqldb",
+[string]$password='Sql@Server@1234',
+[string]$location="central us"
 )
 # create resource group
 New-AzResourceGroup -Name $resourcegroup -Location $location -force
@@ -23,7 +22,8 @@ New-AzSqlDatabase -DatabaseName $databasename  -Edition basic -ServerName $serve
 # Enable access to azure services.
 # This is required for data factory to connect to the database.
  New-AzSqlServerFirewallRule -ServerName $servername -ResourceGroupName $resourcegroup -AllowAllAzureIPs
-<#
+
+ <#
 To connect to the database using sqlcmd, open a new powershell window and execute the below command
 
 sqlcmd -S "azadesqlserver.database.windows.net" -U sqladmin -P "Sql@Server@1234" -d azadesqldb

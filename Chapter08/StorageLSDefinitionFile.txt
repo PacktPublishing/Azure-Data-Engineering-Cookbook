@@ -1,0 +1,17 @@
+{
+    "name": "StorageLinkedService",
+    "properties": {
+        "annotations": [],
+        "type": "AzureBlobStorage",
+        "typeProperties": {
+            "connectionString": {
+                "type": "AzureKeyVaultSecret",
+                "store": {
+                    "referenceName": "KeyVaultLinkedService",
+                    "type": "LinkedServiceReference"
+                },
+                "secretName": "azure-storage-connectionstring"
+            }
+        }
+    }
+}
