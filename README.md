@@ -64,3 +64,7 @@ We also provide a PDF file that has color images of the screenshots/diagrams use
 ## Get to Know the Author
 **Ahmad Osama** works for Pitney Bowes Pvt Ltd as a database engineer and is a Microsoft Data Platform MVP. In his day to day job at Pitney Bowes, he works on developing and maintaining high performance on-premises and cloud SQL Server OLTP environments, building CI/CD environments for databases and automation. Other than his day to day work, he regularly speaks at user group events and webinars conducted by the DataPlatformLabs community.
 
+### Download a free PDF
+
+ <i>If you have already purchased a print or Kindle version of this book, you can get a DRM-free PDF version at no cost.<br>Simply click on the link to claim your free PDF.</i>
+<p align="center"> <a href="https://packt.link/free-ebook/9781800206557">https://packt.link/free-ebook/9781800206557 </a> </p>
